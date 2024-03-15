@@ -118,8 +118,8 @@ install_docker() {
 }
 
 install_marzban_script() {
-    FETCH_REPO="Gozargah/Marzban-scripts"
-    SCRIPT_URL="https://github.com/$FETCH_REPO/raw/master/marzban.sh"
+#    FETCH_REPO="mr-akkerman/marzban-scripts"
+    SCRIPT_URL="https://raw.githubusercontent.com/mr-akkerman/marzban-scripts/main/install.sh"
     colorized_echo blue "Installing marzban script"
     curl -sSL $SCRIPT_URL | install -m 755 /dev/stdin /usr/local/bin/marzban
     colorized_echo green "marzban script installed successfully"
