@@ -128,7 +128,7 @@ install_marzban_script() {
 install_marzban() {
     # Fetch releases
 #    FILES_URL_PREFIX="https://github.com/mr-akkerman/marzban-degrie.git/dev"
-    FILES_URL_PREFIX="https://raw.githubusercontent.com/mr-akkerman/marzban-degrie/dev"
+    FILES_URL_PREFIX="https://raw.githubusercontent.com/mr-akkerman/marzban-degrie/main"
 
 
     mkdir -p "$DATA_DIR"
